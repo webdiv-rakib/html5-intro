@@ -16,3 +16,13 @@ nav li a {
     text-decoration: none;
     color: black;
 }
+/* nasted menu styles */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    padding: 5px;
+}
+nav li:hover .dropdown{
+    display: block;
+}
